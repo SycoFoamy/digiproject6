@@ -201,6 +201,6 @@ digiproject6.Game.prototype = {
 
   gameOver: function(player, pot){
       pot.destroy();
-      this.game.state.start('End', true, false);
+      this.game.state.start('MainMenu', true, false);
   }
 };
