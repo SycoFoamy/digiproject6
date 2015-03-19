@@ -1,6 +1,6 @@
 var digiproject6 = digiproject6 || {};
 
-digiproject6.game = new Phaser.Game(window.innerWidth, window.innerHeight, Phaser.AUTO, '');
+digiproject6.game = new Phaser.Game(window.innerWidth, window.innerHeight, Phaser.AUTO, 'game');
 
 digiproject6.game.state.add('End', digiproject6.End);
 digiproject6.game.state.add('Boot', digiproject6.Boot);
